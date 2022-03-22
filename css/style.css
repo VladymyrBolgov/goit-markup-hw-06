@@ -89,17 +89,19 @@ img {
     position: relative;
 }
 .current::after{
+    content: '';
+
     position: absolute;
     left: 0;
     bottom: -1px;
-    content: '';
+    
     display: block;
-    height: 4px;
     width: 100%;
+    height: 4px;
     border-radius: 2px;
     background-color: var(--accent-color);
 }
-
+/*   конец   */
 .contact-item+.contact-item{
    margin-left: 50px;
 }
@@ -658,6 +660,13 @@ img {
     background-color: var(--accent-color);
 }
 
+/* ФУТЕР Подписка надо делать 6 дз*/
+
+
+
+
+
+
 
 /* Портфолио---------*/
 
@@ -761,7 +770,7 @@ img {
    border-bottom: 1px solid #ececec;
    border-left: 1px solid #ececec;
 }
-/*технокряк*/
+/*технокряк оверлей*/
 .projects-list-item-overlay {
     position: relative;
     overflow: hidden;
