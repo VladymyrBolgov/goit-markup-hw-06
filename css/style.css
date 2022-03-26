@@ -344,6 +344,10 @@ img {
     resize: none;
     outline: none; 
   }
+  .modal-textarea:hover, 
+  .modal-textarea:focus{
+    border-color: var(--accent-color);
+  }
 
 /*.placeholder{
     font-size: 14px;
