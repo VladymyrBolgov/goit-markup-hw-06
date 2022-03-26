@@ -253,7 +253,7 @@ img {
     
     width: 528px;
     height: 581px;
-    padding: 8px;
+    padding: 40px;
 
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
         0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -283,6 +283,27 @@ img {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
         0px 2px 1px rgba(0, 0, 0, 0.2);
 }
+.modal-title{
+    font-size: 20px;
+    line-height: 1.15;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color) ;
+
+}
+/*.modal-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+  }
+.modal-button-icon{
+    position: absolute;
+    left: 12px;
+    bottom: 11px;   
+}*/
+
+  
 /* ===============Modal Window end================= */
 
 /* ПРЕТМУЩЕСТВА*/
@@ -675,8 +696,13 @@ img {
  }
 .subscribe-form{
     padding-top: 20px;
-    
+    /*display: flex;*/
 }
+/*.subscribe-form label{
+    display: flex;
+    align-items: center;  
+}*/
+
 .subscribe-input{
     width: 358px;
     height: 50px;
@@ -720,7 +746,6 @@ right: 28px;
 transform: translateY(-50%);
 fill: var(--primary-color-white);
 }
-
 
 /* Портфолио---------*/
 
