@@ -660,7 +660,7 @@ img {
     background-color: var(--accent-color);
 }
 
-/* ФУТЕР Подписка надо делать 6 дз*/
+/* ФУТЕР Подписка н*/
 
 .subscribe{
     margin-left: auto;
@@ -675,6 +675,7 @@ img {
  }
 .subscribe-form{
     padding-top: 20px;
+    
 }
 .subscribe-input{
     width: 358px;
@@ -717,6 +718,7 @@ position: absolute;
 top: 50%;
 right: 28px;
 transform: translateY(-50%);
+fill: var(--primary-color-white);
 }
 
 
