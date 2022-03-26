@@ -288,20 +288,35 @@ img {
     line-height: 1.15;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--title-text-color) ;
+    color: var(--title-text-color);
+    margin-bottom: 12px;
 
 }
-/*.modal-item {
+.modal-item {
     position: relative;
     display: flex;
     flex-direction: column;
-
   }
 .modal-button-icon{
     position: absolute;
     left: 12px;
     bottom: 11px;   
-}*/
+}
+.modal-item label{
+    margin-bottom: 4px;
+}
+.modal-item input{
+    height: 40px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.modal-item:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  .modal-item:last-child {
+    margin-bottom: 20px;
+  }
 
   
 /* ===============Modal Window end================= */
