@@ -284,6 +284,8 @@ img {
         0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
+/*Модальное окно форма*/
+
 .modal-title{
     font-size: 20px;
     line-height: 1.15;
@@ -292,7 +294,7 @@ img {
     color: var(--title-text-color);
     margin-bottom: 12px;
 }
-.modal-item {
+.modal-label {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -301,35 +303,29 @@ img {
     position: absolute;
     left: 12px;
     bottom: 11px;
-    fill:  var(--title-text-color); 
-      
+    fill: var(--title-text-color); 
 }
-.modal-item label{
-    margin-bottom: 4px;
+.modal-label{
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.01em;
     color: var(--primary-text-color);
-
 }
-.modal-item input{
+.modal-input{
     height: 40px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     outline: none;
     padding: 11px;
     padding-left: 40px;
+    margin-top: 4px;
 }
-
- input:hover,
- input:focus{
+.modal-input:focus{
     border-color: var(--accent-color);
 }
-.modal-button-icon:hover,
-.modal-button-icon:focus{
-    fill: var(--accent-color); 
+.modal-label:focus-within .modal-button-icon{
+    fill: var(--accent-color);
 }
-
 .modal-item:not(:last-child) {
     margin-bottom: 10px;
   }
@@ -343,18 +339,18 @@ img {
     padding: 12px 16px;
     resize: none;
     outline: none; 
+    margin-top: 4px;
   }
-  .modal-textarea:hover, 
+  .modal-item textarea::placeholder{
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.01em;
+    color: rgba(117, 117, 117, 0.5);
+  }
   .modal-textarea:focus{
     border-color: var(--accent-color);
   }
-
-/*.placeholder{
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.01em;
-    color: rgba(117, 117, 117, 0.5);
-}*/
+/*модалное окно форма условия договора*/
 
 
   
