@@ -427,6 +427,7 @@ img {
     color: var(--primary-color-white);
     background-color: var(--accent-color);
     border-radius: 4px;
+    cursor: pointer;
   }
   .modal-submit:hover,
   .modal-submit:focus {
