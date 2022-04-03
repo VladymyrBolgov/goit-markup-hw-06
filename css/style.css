@@ -279,12 +279,7 @@ img {
 }
 .modal-button:hover,
 .modal-button:focus {
-    stroke: black;
-    stroke-opacity: 0.1;
-    background-color: var(--accent-color);
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
-     0px 1px 1px rgba(0, 0, 0, 0.14),
-        0px 2px 1px rgba(0, 0, 0, 0.2);
+    fill: var(--accent-color);
 }
 
 /*Модальное окно форма*/
@@ -976,7 +971,9 @@ img {
    border-bottom: 1px solid #ececec;
    border-left: 1px solid #ececec;
 }
-/*технокряк оверлей*/
+
+/*технокряк       оверлей*/
+
 .projects-list-item-overlay {
     position: relative;
     overflow: hidden;
@@ -999,7 +996,7 @@ img {
 }
 .projects-link:hover .projects-list-item-overlay-text,
 .projects-link:focus .projects-list-item-overlay-text{
-    transform: translateY(0);
+    transform: translateY(0%);
 }
 
 
