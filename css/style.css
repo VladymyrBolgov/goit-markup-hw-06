@@ -135,7 +135,7 @@ img {
     color: var(--accent-color);
 }
 .contact-link {
-    color: var(--primary-text-color);
+    /*color: var(--primary-text-color);*/
     font-weight: 500;
     font-size: 14px;
     line-height: 1.17;
